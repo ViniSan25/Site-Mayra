@@ -683,7 +683,7 @@ padding:7px;
 /* IMAGEM */
 
 .trust-image {
-  background: url("../imagens/tia4.jpg");
+  background: url("/imagens/tia4.jpg");
   background-size: cover;
   background-position: center 30%;
 }
