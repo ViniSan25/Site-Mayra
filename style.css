@@ -1117,3 +1117,23 @@ grid-template-columns:1fr;
     }
 
 }
+
+/* ANIMAÇÃO DOS SERVIÇOS */
+
+.servico-card{
+    opacity: 0;
+    transition: all 0.8s ease;
+}
+
+.servico-card.esquerda{
+    transform: translateX(-120px);
+}
+
+.servico-card.direita{
+    transform: translateX(120px);
+}
+
+.servico-card.show{
+    opacity: 1;
+    transform: translateX(0);
+}
